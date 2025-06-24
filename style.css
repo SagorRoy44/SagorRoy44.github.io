@@ -1,0 +1,86 @@
+ body {
+     font-family: 'Segoe UI', sans-serif;
+     background-color: #f8f9fa;
+ }
+
+ .navbar {
+     background: linear-gradient(to right, #459f58, #707886);
+ }
+
+ .imageSize img {
+     height: 400px;
+     width: 500px;
+ }
+
+ .photo-box {
+     position: relative;
+     overflow: hidden;
+     height: 100%;
+     text-align: center;
+     color: white;
+ }
+
+ .photo-box img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     transition: 0.5s ease;
+ }
+
+ .photo-box:hover img {
+     transform: scale(1.1);
+ }
+
+ .navbar-brand {
+     font-weight: bold;
+     font-size: 2.2rem;
+     color: #fff !important;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+     font-family: 'Trebuchet MS', sans-serif;
+     letter-spacing: 1px;
+ }
+
+ .nav-link {
+     color: #f8f9fa !important;
+     margin-right: 10px;
+     font-weight: 500;
+     transition: color 0.3s ease;
+ }
+
+ .nav-link:hover,
+ .dropdown-item:hover {
+     color: #ffc107 !important;
+ }
+
+ .dropdown-menu {
+     background-color: #343a40;
+ }
+
+ .dropdown-item {
+     color: #fff;
+ }
+
+ .dropdown-item:hover {
+     background-color: #495057;
+ }
+
+ .overlay {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .overlay h3 {
+     font-weight: bold;
+ }
+
+ .btn-outline-light {
+     border: 1px solid white;
+     color: white;
+     margin-top: 10px;
+ }
+
+ .skills span {
+      margin: 5px;
+  }
