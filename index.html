@@ -2,304 +2,403 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sagor-Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sagor Roy — ICT Researcher</title>
+  <meta name="description" content="Sagor Roy — M.Sc. researcher in ICT at MBSTU, working in machine learning, bioinformatics, and AI-driven healthcare." />
 
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Cookie&family=Dancing+Script&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playwrite+HU:wght@100..400&display=swap"
-        rel="stylesheet" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
 
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Sagor Roy</a>
-      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="#top">Sagor Roy</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About Me</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="achievementsDropdown" role="button" data-bs-toggle="dropdown">
-              Achievements
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#certifications">Certifications</a></li>
-              <li><a class="dropdown-item" href="#projects">Projects</a></li>
-              <li><a class="dropdown-item" href="#awards">Awards</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#profiles">Profiles</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+      <nav id="nav-menu" class="nav-menu">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
     </div>
-  </nav>
-  <div class="container-fluid my-5">
-      <div class="row g-3">
-        <div class="col-md-4">
-          <div class="photo-box">
-            <img src="sagor3.jpg" alt="Nature" />
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-inner">
+        <div class="hero-text" data-aos="fade-up">
+          <p class="eyebrow">§01 &nbsp;M.Sc. Researcher — Dept. of ICT, MBSTU</p>
+          <h1 class="display">Sagor Roy</h1>
+          <p class="hero-lede">
+            I build machine-learning and bioinformatics pipelines that turn messy biological
+            and clinical data into biomarkers, targets, and tools — with the long-term aim of
+            applying the same computational thinking to agriculture.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#publications">Read the publications</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="photo-box">
-            <img src="sagor4.jpg" alt="Portrait" />
+        <div class="hero-photo" data-aos="fade-left">
+          <div class="photo-frame">
+            <img src="sagor1.jpg" alt="Portrait of Sagor Roy" />
           </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="photo-box">
-            <img src="sagor2.jpg" alt="People" />
-          </div>
+          <p class="photo-caption">Sunamganj, Sylhet, Bangladesh</p>
         </div>
       </div>
 
-          <section class="about py-5" id="about">
-      <div class="container-fluid">
-        <div>
-          <h1 class="text-center" data-aos="zoom-in">About Me</h1>
-          <hr class="w-25 m-auto" />
+      <dl class="stat-strip" data-aos="fade-up" data-aos-delay="100">
+        <div class="stat">
+          <dt>Publications</dt>
+          <dd>03</dd>
         </div>
-      </div>
-      <div class="container pt-3">
-        <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseOne"
-                    aria-expanded="true"
-                    aria-controls="panelsStayOpen-collapseOne"
-                  >
-                    About Myself
-                  </button>
-                </h2>
-                <div
-                  id="panelsStayOpen-collapseOne"
-                  class="accordion-collapse collapse show"
-                  aria-labelledby="panelsStayOpen-headingOne"
-                >
-                  <div class="accordion-body">
-                    <strong>My name is Sagor Roy</strong>
-                    <p>Student of ICT,MBSTU</p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseTwo"
-                  >
-                    Education
-                  </button>
-                </h2>
-                <div
-                  id="panelsStayOpen-collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingTwo"
-                >
-                  <div class="accordion-body">
-                    <strong>My Name is Sagor Roy. I am currently studying in the Department of Information and Communication Technology at Mawlana Bhashani Science and Technology University. I am passionate about Machine learning, Bioinformatics, Technology, and Competitive Programming. I am also have an outstanding academic growth in my department and I already build some projects like suduko solver game, Advance Snake game and Automatic Door Lock and LED control project based on IOT.</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseThree"
-                  >
-                    Hobby
-                  </button>
-                </h2>
-                <div
-                  id="panelsStayOpen-collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingThree"
-                >
-                  <div class="accordion-body">
-                    <strong>My Hobby is mainly Gardening and reading books. In my collage days i lived in sylhet and That time i was spend my some time on Gardening and i realize that it is the hobby which i really enjoys a lot.And now i have added a new hobby which is reading books which help me to be a good man.</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="stat">
+          <dt>B.Sc. CGPA</dt>
+          <dd>3.88<span>/4.00</span></dd>
+        </div>
+        <div class="stat">
+          <dt>Conference</dt>
+          <dd>EICT&nbsp;2025</dd>
+        </div>
+        <div class="stat">
+          <dt>IEEE Role</dt>
+          <dd>Vice&nbsp;Chair</dd>
+        </div>
+      </dl>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-inner">
+        <p class="eyebrow">§02&nbsp; About</p>
+        <div class="about-grid">
+          <div data-aos="fade-up">
+            <h2>Profile</h2>
+            <p class="lede">
+              Master's student in ICT with research experience in machine learning,
+              bioinformatics, and AI-driven healthcare — including a peer-reviewed conference
+              publication. I'm seeking to pursue graduate research applying computational
+              methods to biomedical and agricultural problems.
+            </p>
+            <p>
+              I'm currently studying in the Department of Information and Communication
+              Technology at Mawlana Bhashani Science and Technology University (MBSTU), where
+              my undergraduate thesis applied machine learning and systems biology to precision
+              breast-cancer biomarker discovery. Outside research, I build small IoT and
+              software projects — from a Sudoku solver to an ESP32-based smart-home system —
+              and in quieter hours I keep a garden and read.
+            </p>
           </div>
-          <div class="imageSize col-lg-6 col-md-12 col-sm-12 m-auto text-end">
-            <img
-              src="sagor1.jpg"
-              class="pt-5"
-              data-aos="zoom-in"
-              data-aos-offset="300"
-            />
+
+          <div class="interests-card" data-aos="fade-up" data-aos-delay="100">
+            <h3>Research interests</h3>
+            <ul class="tag-list">
+              <li>Machine Learning</li>
+              <li>Bioinformatics</li>
+              <li>AI in Healthcare</li>
+              <li>AI in Agriculture</li>
+              <li>Computational Biology</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="education py-5" id="education">
-      <div class="container-fluid">
-        <div>
-          <h1 class="text-center" data-aos="zoom-in">Education</h1>
-          <hr class="w-25 m-auto" />
+    <!-- PUBLICATIONS -->
+    <section class="section section-alt" id="publications">
+      <div class="section-inner">
+        <p class="eyebrow">§03&nbsp; Publications</p>
+        <h2>Conference papers</h2>
+        <p class="lede">
+          All three papers were presented at the 2025 7th International Conference on
+          Electrical Information and Communication Technology (EICT), IEEE.
+        </p>
+
+        <ol class="pub-list">
+          <li class="pub" data-aos="fade-up">
+            <span class="pub-index">01</span>
+            <div class="pub-body">
+              <p class="pub-title">
+                Machine Learning and Bioinformatics-Driven Discovery of Biomarkers and
+                Therapeutics for Melanoma and Non-Melanoma Skin Cancers
+              </p>
+              <p class="pub-meta">Jannat, S., <strong>Roy, S.</strong>, Saha, S., Bindu, N. J., Basar, M. A., &amp; Kabir, M. A. — EICT 2025, pp. 1–6</p>
+              <a class="pub-doi" href="https://doi.org/10.1109/EICT68394.2025.11355516" target="_blank" rel="noopener">
+                doi.org/10.1109/EICT68394.2025.11355516 <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </li>
+
+          <li class="pub" data-aos="fade-up" data-aos-delay="80">
+            <span class="pub-index">02</span>
+            <div class="pub-body">
+              <p class="pub-title">
+                Unveiling Common Biomarkers and Therapeutic Targets in T2DM, AMI, and
+                Alzheimer's Disease Using XAI and Bioinformatics Approaches
+              </p>
+              <p class="pub-meta">Saha, S., Rahaman, M. L., <strong>Roy, S.</strong>, Jannat, S., Basar, M. A., &amp; Kabir, M. A. — EICT 2025, pp. 1–6</p>
+              <a class="pub-doi" href="https://doi.org/10.1109/EICT68394.2025.11355544" target="_blank" rel="noopener">
+                doi.org/10.1109/EICT68394.2025.11355544 <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </li>
+
+          <li class="pub" data-aos="fade-up" data-aos-delay="160">
+            <span class="pub-index">03</span>
+            <div class="pub-body">
+              <p class="pub-title">
+                Vishing Shield: A Conceptual Framework and Detection Model to Mitigate Vishing
+                Attacks in Mobile Financial Services (MFS)
+              </p>
+              <p class="pub-meta">Sarker, A., Chy, M. W., Tithi, S. R., <strong>Roy, S.</strong>, Hossain, M. A., Uddin, M. S., &amp; Kabir, M. A. — EICT 2025, pp. 1–6</p>
+              <a class="pub-doi" href="https://doi.org/10.1109/EICT68394.2025.11355557" target="_blank" rel="noopener">
+                doi.org/10.1109/EICT68394.2025.11355557 <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </li>
+        </ol>
+
+        <a class="text-link" href="#" target="_blank" rel="noopener">View full record on Google Scholar <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="section-inner">
+        <p class="eyebrow">§04&nbsp; Education</p>
+        <h2>Academic record</h2>
+
+        <ol class="timeline">
+          <li data-aos="fade-up">
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <p class="tl-date">Running</p>
+              <h3>M.Sc. (Engg.) in Information and Communication Technology</h3>
+              <p>Mawlana Bhashani Science and Technology University, Tangail, Bangladesh</p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="80">
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <p class="tl-date">March 2022 – May 2026</p>
+              <h3>B.Sc. (Engg.) in Information and Communication Technology</h3>
+              <p>Mawlana Bhashani Science and Technology University, Tangail, Bangladesh</p>
+              <p class="tl-detail">CGPA 3.88 / 4.00 · Thesis: "Machine Learning and Systems Biology for Precision Breast Cancer Biomarker Discovery and Therapeutics"</p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="160">
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <p class="tl-date">2020</p>
+              <h3>Higher Secondary Certificate (HSC)</h3>
+              <p>MC College, Sylhet, Bangladesh</p>
+              <p class="tl-detail">GPA 5.00 / 5.00</p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="240">
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <p class="tl-date">2018</p>
+              <h3>Secondary School Certificate (SSC)</h3>
+              <p>Police Lines High School, Sylhet, Bangladesh</p>
+              <p class="tl-detail">GPA 5.00 / 5.00</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section section-alt" id="experience">
+      <div class="section-inner">
+        <p class="eyebrow">§05&nbsp; Experience</p>
+        <div class="exp-grid">
+          <div class="exp-card" data-aos="fade-up">
+            <p class="tl-date">July 2026 – Present</p>
+            <h3>Research Assistant</h3>
+            <p class="exp-org">Improving Computer and Software Engineering Tertiary Education Project (ICSETEP) · MBSTU</p>
+          </div>
+
+          <div class="exp-card" data-aos="fade-up" data-aos-delay="80">
+            <p class="tl-date">April 2026 – Present</p>
+            <h3>Vice Chair, IEEE Student Branch — Bangladesh Section</h3>
+            <p class="exp-org">
+              Coordinate administrative tasks, meetings, and events; facilitate communication
+              and promote professional-development initiatives across the branch.
+            </p>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="row p-5">
-        <div class="col-sm-12 col-md-6 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">JSC</h5>
-              <p class="card-text">
-                In My Junior School certificate Exam I got GPA 5.00 in Sylhet Board
-              </p>
-              <a href="" class="btn btn-primary">JSC Certificate</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">SSC</h5>
-              <p class="card-text">
-               In My Secondary School certificate Exam I got GPA 5.00 in Sylhet Board
-              </p>
-              <a href="#" class="btn btn-primary">SSC Certificate</a>
-            </div>
-          </div>
-        </div>
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-inner">
+        <p class="eyebrow">§06&nbsp; Projects</p>
+        <h2>Selected builds</h2>
 
-        <div class="col-sm-12 col-md-6 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">HSC</h5>
-              <p class="card-text">
-                In My HigherSecondary School certificate Exam I got GPA 5.00 in Sylhet Board
-              </p>
-              <a href="#" class="btn btn-primary">HSC Certificate</a>
-            </div>
-          </div>
-        </div>
+        <div class="project-grid">
+          <article class="project-card" data-aos="fade-up">
+            <h3>Personal Portfolio Website</h3>
+            <p>A fully responsive portfolio built with HTML, CSS, and Bootstrap to showcase projects and research work — the site you're on now.</p>
+            <a class="text-link" href="https://github.com/SagorRoy44" target="_blank" rel="noopener">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </article>
 
-        <div class="col-sm-12 col-md-6 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">B.Sc Engg.</h5>
-              <p class="card-text">
-                If everything will fine then i will complete my B.Sc in 2026.
-              </p>
-              <a href="#" class="btn btn-primary">Pending</a>
-            </div>
+          <article class="project-card" data-aos="fade-up" data-aos-delay="80">
+            <h3>Home Automation System</h3>
+            <p>An IoT-based smart-home system using ESP32 for appliance control, water-level monitoring, and automated door locking via Blynk integration.</p>
+            <span class="chip-row"><span class="chip">ESP32</span><span class="chip">Blynk</span><span class="chip">Sensors</span></span>
+          </article>
+
+          <article class="project-card" data-aos="fade-up" data-aos-delay="160">
+            <h3>Sudoku Application</h3>
+            <p>An interactive Sudoku puzzle application with logical validation and a grid-based UI, plus a separate C++ solver.</p>
+            <span class="chip-row"><span class="chip">C++</span><span class="chip">Python</span></span>
+          </article>
+
+          <article class="project-card" data-aos="fade-up" data-aos-delay="240">
+            <h3>Counter App</h3>
+            <p>A small counter application with increment, decrement, and reset functionality behind a clean interface.</p>
+            <a class="text-link" href="https://github.com/SagorRoy44" target="_blank" rel="noopener">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-alt" id="skills">
+      <div class="section-inner">
+        <p class="eyebrow">§07&nbsp; Skills</p>
+        <h2>Technical toolkit</h2>
+
+        <div class="skills-grid">
+          <div class="skill-group" data-aos="fade-up">
+            <h3>Languages</h3>
+            <div class="chip-row"><span class="chip">Python</span><span class="chip">C++</span><span class="chip">JavaScript</span></div>
+          </div>
+          <div class="skill-group" data-aos="fade-up" data-aos-delay="60">
+            <h3>Machine Learning</h3>
+            <div class="chip-row"><span class="chip">Regression</span><span class="chip">SVM</span><span class="chip">Random Forest</span><span class="chip">Feature Selection</span><span class="chip">SHAP</span></div>
+          </div>
+          <div class="skill-group" data-aos="fade-up" data-aos-delay="120">
+            <h3>Bioinformatics</h3>
+            <div class="chip-row"><span class="chip">Microarray &amp; DGE Analysis</span><span class="chip">Biomarker Identification</span><span class="chip">GEO Processing</span></div>
+          </div>
+          <div class="skill-group" data-aos="fade-up" data-aos-delay="180">
+            <h3>Web &amp; Database</h3>
+            <div class="chip-row"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">Bootstrap</span><span class="chip">Django</span><span class="chip">SQL</span></div>
+          </div>
+          <div class="skill-group" data-aos="fade-up" data-aos-delay="240">
+            <h3>IoT</h3>
+            <div class="chip-row"><span class="chip">ESP32</span><span class="chip">Blynk</span><span class="chip">Sensors</span><span class="chip">Relays</span><span class="chip">Servo Motors</span></div>
+          </div>
+          <div class="skill-group" data-aos="fade-up" data-aos-delay="300">
+            <h3>Tools</h3>
+            <div class="chip-row"><span class="chip">Git</span><span class="chip">Overleaf</span><span class="chip">Google Colab</span><span class="chip">Jupyter Notebook</span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="bg-light py-5" id="skills">
-        <div class="container">
-            <h2 class="text-center mb-4">Skills</h2>
-            <div class="d-flex flex-wrap justify-content-center skills">
-                <span class="badge bg-primary">Python</span>
-                <span class="badge bg-secondary">HTML</span>
-                <span class="badge bg-success">CSS</span>
-                <span class="badge bg-danger">Bootstrap</span>
-                <span class="badge bg-warning text-dark">Django</span>
-                <span class="badge bg-info text-dark">Machine Learning</span>
-                <span class="badge bg-dark">Git</span>
-                <span class="badge bg-primary">Arduino / ESP32</span>
-            </div>
+    <!-- REFERENCES -->
+    <section class="section" id="references">
+      <div class="section-inner">
+        <p class="eyebrow">§08&nbsp; References</p>
+        <div class="ref-grid">
+          <div class="ref-card" data-aos="fade-up">
+            <h3>Prof. Dr. Muhammad Shahin Uddin</h3>
+            <p>Dept. of ICT, Mawlana Bhashani Science &amp; Technology University</p>
+            <a href="mailto:shahin.mbstu@gmail.com">shahin.mbstu@gmail.com</a>
+          </div>
+          <div class="ref-card" data-aos="fade-up" data-aos-delay="80">
+            <h3>Prof. Dr. Monir Morshed</h3>
+            <p>Chairman, Dept. of ICT, Mawlana Bhashani Science &amp; Technology University</p>
+            <a href="mailto:monirmorshed.ict@mbstu.ac.bd">monirmorshed.ict@mbstu.ac.bd</a>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class="container py-5" id="projects">
-        <h2 class="text-center">Projects</h2>
-        <div class="row mt-4">
-            <div class="col-md-6 mb-4">
-                <div class="card project-card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">Sudoku Solver</h5>
-                        <p class="card-text">Using C++ i completed a Simple Suduku Solver project </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4">
-                <div class="card project-card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">Advance Snake Game</h5>
-                        <p class="card-text">Using Python i completed a Simple Advance Snake Game </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4">
-                <div class="card project-card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">Smart Home Automation</h5>
-                        <p class="card-text">An IoT system using ESP32 and Blynk for LED control, water level monitoring, and auto door lock.</p>
-                    </div>
-                </div>
-            </div>
+    <!-- CONTACT -->
+    <section class="section section-contact" id="contact">
+      <div class="section-inner">
+        <p class="eyebrow">§09&nbsp; Contact</p>
+        <h2>Let's talk research</h2>
+        <p class="lede">
+          Open to graduate research collaborations in machine learning, bioinformatics, and
+          AI for healthcare or agriculture.
+        </p>
+
+        <div class="contact-grid">
+          <a class="contact-item" href="mailto:sagorroy4872@gmail.com">
+            <i class="fa-solid fa-envelope"></i> sagorroy4872@gmail.com
+          </a>
+          <a class="contact-item" href="tel:+8801798864872">
+            <i class="fa-solid fa-phone"></i> +880 1798‑864872
+          </a>
+          <a class="contact-item" href="https://github.com/SagorRoy44" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a class="contact-item" href="https://www.linkedin.com/in/sagor-roy-6263212a1/" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+          <a class="contact-item" href="#" target="_blank" rel="noopener">
+            <i class="fa-solid fa-graduation-cap"></i> Google Scholar
+          </a>
         </div>
+      </div>
     </section>
 
-    <footer class="text-center py-4 bg-dark text-white">
-        <p>&copy; 2025 Sagor Roy</p>
-        <div>
-            <a href="https://github.com/SagorRoy44" class="text-white me-3"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/sagor-roy-6263212a1/" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.facebook.com/sagor.roy.563356" class="text-white"><i class="fab fa-facebook-f"></i></a>
-        </div>
-    </footer>
-    
- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      AOS.init();
-    </script>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Sagor Roy · Sunamganj, Sylhet, Bangladesh</p>
+    <div class="footer-links">
+      <a href="https://github.com/SagorRoy44" aria-label="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/sagor-roy-6263212a1/" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/sagor.roy.563356" aria-label="Facebook" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 600, once: true, disable: 'mobile' });
+
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.nav-menu');
+    toggle.addEventListener('click', () => {
+      const open = menu.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      menu.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', false);
+    }));
+  </script>
 </body>
 
 </html>
